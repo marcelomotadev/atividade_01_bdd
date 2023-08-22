@@ -22,7 +22,7 @@ class UsersController {
       [cpf, name, data_nascimento]
     )
       
-    return response.status(201).json();
+    return response.status(201).json('Usuário adicionado com sucesso.');
   }
 
   async show(request, response) {
